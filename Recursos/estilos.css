@@ -1,0 +1,88 @@
+
+@font-face {
+    font-family: fuenteFabled;
+    src: url(Fuente/Fabled.otf);
+}
+@font-face {
+    font-family: fuenteAnA;
+    src: url(Fuente/Anastasia.ttf);
+}
+ul{
+    list-style-image: url("");
+}
+
+@font-face {
+    font-family: fuenteTitulo;
+    src: url(Fuente/kg_a_little_swag/KGALittleSwag.ttf);
+}
+ul{
+    list-style-image: url("");
+}
+
+@font-face {
+    font-family: fuenteMiel;
+    src: url(Fuente/Snowy\ Holiday.ttf);
+}
+
+.fondoImagen{
+    background-image: url(media/Gato.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: 10rem;
+    padding: 30px;
+}
+
+
+body{
+    background-color: #f87070;
+    font-family: sans-serif;
+    padding: 5em;
+}
+.fondoBlanco{
+    background-color: white;
+}
+.fondoCafesito{
+    background-color: #ecb965;
+}
+.fondoCafe{
+    background-color: #7d5023;
+}
+.texto1{
+    text-align: center;
+    font-size: 68px;
+    color: #e02340;
+    font-family: fuenteTitulo;
+    WIDTH:"70%";
+}
+
+.texto2{
+    text-align: left;
+    font-size: 35px;
+    color: white;
+    font-family: fuenteMiel;
+    padding-bottom: 50px;
+}
+.texto3{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    font-family: fuenteMiel;
+    padding-bottom: 25px;
+}
+
+.imagenEstilo{
+    width: 150px;
+    text-align: center;
+}
+.bodeBlanco{
+    border: 20px solid white;
+    border-radius: 15px;
+
+}
+.fondoCafesito2{
+    background-color: #ecb965;
+    border: 20px solid #ecb965;
+    border-radius: 15px;
+    text-align: center;
+}
